@@ -2,7 +2,6 @@
 
 This repository implements the SAFL in pytorch. 
 
-The research paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8395027/).
 
 ![SAFL Overview](overview.png)
 
