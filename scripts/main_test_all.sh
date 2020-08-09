@@ -17,8 +17,8 @@ do
     --test_data_dir ${DLS_DATA_URL}$i \
     --batch_size 128 \
     --workers 8 \
-    --height 32 \
-    --width 100 \
+    --height 64 \
+    --width 256 \
     --voc_type ALLCASES_SYMBOLS \
     --arch ResNet_ASTER \
     --with_lstm \
@@ -33,5 +33,5 @@ do
     --tps_margins 0.05 0.05 \
     --stn_activation none \
     --num_control_points 20 \
-    --resume ./logs_wo_rec/baseline/model_best.pth.tar
+    --resume ./data/logs0/baseline/model_best.pth.tar
 done
