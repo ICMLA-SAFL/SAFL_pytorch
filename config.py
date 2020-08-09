@@ -50,7 +50,7 @@ parser.add_argument('-a', '--arch', type=str, default='ResNet_ASTER')
 parser.add_argument('--dropout', type=float, default=0.5)
 parser.add_argument('--max_len', type=int, default=100)
 parser.add_argument('--n_group', type=int, default=1)
-parser.add_argument('--STN_ON', action='store_false',
+parser.add_argument('--STN_ON', action='store_true',
                     help='add the stn head.')
 parser.add_argument('--tps_margins', nargs='+', type=float, default=[0.05,0.05])
 parser.add_argument('--stn_activation', type=str, default='none')

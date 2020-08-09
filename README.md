@@ -9,6 +9,7 @@ This repository implements the SAFL in pytorch.
 
 ```
 conda env create -f environment.yml
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 ```
 
 ## Train

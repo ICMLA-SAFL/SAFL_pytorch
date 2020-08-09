@@ -3,8 +3,8 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py \
   --test_data_dir ./data/IIIT5k/ \
   --batch_size 128 \
   --workers 8 \
-  --height 32 \
-  --width 100 \
+  --height 64 \
+  --width 256 \
   --voc_type ALLCASES_SYMBOLS \
   --arch ResNet_ASTER \
   --with_lstm \
@@ -20,5 +20,5 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py \
   --encoder_block 4 \
   --decoder_block 4 \
   --lr 0.00002 \
-  --resume ./logs_wo_rec/baseline/checkpoint.pth.tar \
+  # --resume ./logs_wo_rec/baseline/checkpoint.pth.tar \
   
